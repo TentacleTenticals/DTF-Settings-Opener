@@ -15,12 +15,14 @@
 //
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/js/main.js
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/css/main.js
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/menu/cfg/css/main.js
 // @license MIT
 // ==/UserScript==
 /* jshint esversion:8 */
 
 (() => {
   new El().Css('DTF-Settings-Opener', openerCss());
+  new El().Css('DTF-Settings-Opener cfg', settingsMenuCss());
   SettingsOpener();
 
 })();
