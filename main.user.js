@@ -1,0 +1,26 @@
+// ==UserScript==
+// @name        DTF Settings Opener
+// @namespace   https://github.com/TentacleTenticals/
+// @match       https://dtf.ru/*
+// @grant       Tentacle Tenticals
+// @version     1.0.0
+// @author      Tentacle Tenticals
+// @description Скрипт для появления панели открытия настроек скриптов
+// @homepage    https://github.com/TentacleTenticals/DTF-SettingsOpener
+// @updateURL   https://github.com/TentacleTenticals/DTF-SettingsOpener/raw/main/main.user.js
+// @downloadURL https://github.com/TentacleTenticals/DTF-SettingsOpener/raw/main/main.user.js
+//
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/libs/splitCls/classes.js
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/libs/settings/css/dtfCore.js
+//
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/js/main.js
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/css/main.js
+// @license MIT
+// ==/UserScript==
+/* jshint esversion:8 */
+
+(() => {
+  new El().Css('DTF-Settings-Opener', openerCss());
+  SettingsOpener();
+
+})();
