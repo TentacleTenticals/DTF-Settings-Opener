@@ -12,10 +12,13 @@
 //
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/libs/splitCls/classes.js
 //
+// Settings
+// Main
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/js/main.js
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/css/main.js
-// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/menu/cfg/css/main.js
+//
 // @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/menu/data/css/main.js
+// @require     https://github.com/TentacleTenticals/dtf-libs-2.0/raw/main/settings/opener/menu/cfg/css/main.js
 // @license MIT
 // ==/UserScript==
 /* jshint esversion:8 */
