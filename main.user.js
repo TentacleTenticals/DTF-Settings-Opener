@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name        DTF Settings Opener
 // @namespace   https://github.com/TentacleTenticals/
-// @match       https://dtf.ru/*
+// @match       https://*dtf.ru/*
 // @grant       Tentacle Tenticals
-// @version     1.0.2
+// @version     1.0.3
 // @author      Tentacle Tenticals
 // @description Скрипт для появления панели открытия настроек скриптов
 // @homepage    https://github.com/TentacleTenticals/DTF-SettingsOpener
